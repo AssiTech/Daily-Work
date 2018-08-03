@@ -1,0 +1,105 @@
+<!--The content below is only a placeholder and can be replaced.-->
+<!-- <div style="text-align:center"> -->
+  
+  <!-- <a routerLink="login">Login Page</a>
+  <router-outlet></router-outlet>
+   <h1><span>{{ title }}<div *ngIf='showData'> in Pune</div></span></h1>
+    
+    <div [ngStyle]="myst">From 2017</div>
+    <div>
+    <h3>PipeConcept:{{number|cube}}</h3>
+    <h3>Assimilate TEchNoloGY: {{name|titlecase}}</h3>
+    <h3>Assimilate TEchNoloGY: {{name|uppercase}}</h3>
+    <h3>Assimilate TEchNoloGY: {{name|lowercase}}</h3>
+    <h3>Assimilate TEchNoloGY: {{today}}</h3>
+    <h3>Assimilate TEchNoloGY: {{data|json}}</h3>
+    </div>
+    <div>
+      <ul>
+        <li *ngFor="let name of names" >
+         {{name.name}}-{{name.city}}
+        </li>
+      </ul>
+    </div>
+
+    <div [ngSwitch]="position">
+        <h6 *ngSwitchCase="'first'">First</h6>
+        <h6 *ngSwitchCase="'second'">Second</h6>
+        <h6 *ngSwitchCase="'third'">Third</h6>
+    </div>
+   
+    <div>
+      <p custom-dir>This is Assimilate</p>
+      <i>{{name1}}</i><br>
+      <button (click)='get()'>Get Data</button>
+    </div>
+  
+<div>
+  <h5>Employee Data</h5>
+  <i>Name:{{empobj.name}}</i><br>
+  <i>Department:{{empobj.dept}}</i><br>
+  <i>Salary:{{empobj.salary}}</i><br>
+  <input type="text" [(ngModel)]="emprollno">
+  <button (click)= "DisplayEmpData()" >GetEmpData</button>
+</div>
+
+<div>
+  <h5>Student Data</h5>
+  <i>Name:{{studobj.name}}</i><br>
+  <i>Branch:{{studobj.branch}}</i><br>
+  <i>Marks:{{studobj.marks}}</i><br>
+  <input type="text" [(ngModel)]="studid">
+  <button (click)= "DisplayStudData()" >GetStudData</button>
+</div> -->
+
+<!-- <div>
+  
+  <i>Name:{{ctrobj.name}}</i><br>
+  <i>Capital:{{ctrobj.capital}}</i><br>
+  <i>Native:{{ctrobj.nativeName}}</i><br>
+  <i>Currency:{{ctrobj.currencies[0].symbol}}</i><br>
+  <i>Flag:</i><img src="{{ctrobj.flag}}" width="20px" height="20px"><br>
+  <input type="text" [(ngModel)]="country">
+  <button (click)= "getCountryInfo()" >CountryDetail</button>
+</div> -->
+<div>
+  <!-- {{ctrobj1|json}} --><h5><p text-align="center" >Country Data</p></h5>
+  <!-- <table style="padding:40px" >
+    <tr>
+      <th>Name</th>
+      <th>Capital</th>
+      <th>Native</th>
+      <th>Currency</th>
+      <th>Flag</th>
+    </tr>
+    <tr *ngFor="let ctr of ctrobj1">
+      
+      <th><i>{{ctr.name}}</i></th>
+      <th><i>{{ctr.capital}}</i></th>
+      <th><i>{{ctr.nativeName}}</i></th>
+      <th><i>{{ctr.currencies[0].symbol}}</i></th>
+      <th><i><img src="{{ctr.flag}}" width="20px" height="20px"></i></th>
+    </tr>    
+  </table>
+  <button (click)= "getCountriesInfo()" >AllCountryDetail</button>
+  <table>
+    <tr>
+    <th><i>Name:{{ctrobj.name}}</i></th>
+    <th><i>Capital:{{ctrobj.capital}}</i></th>
+    <th><i>Native:{{ctrobj.nativeName}}</i></th>
+    <th><i>Currency:{{ctrobj.currencies[0].symbol}}</i></th>
+    <th><i>Flag:</i><img src="{{ctrobj.flag}}" width="20px" height="20px"></th>
+    </tr>
+  </table>
+    <input type="text" [(ngModel)]="country">
+  <button (click)= "getCountryInfo()" >CountryDetail</button> -->
+</div>
+<div>
+    <h5>User Data</h5>
+    <i>Id:{{user.id}}</i><br>
+    <i>Name:{{user.name}}</i><br>
+    <i>Job:{{user.job}}</i><br>
+    <i>City:{{user.city}}</i><br>
+    
+    <button (click)= "getData()" >GetuserData</button>
+</div>
